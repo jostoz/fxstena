@@ -1,6 +1,7 @@
 import { fileURLToPath } from 'url';
 import { dirname, join } from 'path';
 import { copyFileSync, mkdirSync, readdirSync, existsSync } from 'fs';
+import { spawnSync } from 'child_process';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -24,6 +25,7 @@ const copyDir = (src, dest) => {
         } else {
             try {
                 copyFileSync(srcPath, destPath);
+                console.log(`Copied: ${srcPath} -> ${destPath}`);
             } catch (error) {
                 console.error(`Error copying file ${srcPath}:`, error);
             }
@@ -36,9 +38,21 @@ async function build() {
     try {
         console.log('Starting build process...');
 
-        // Run blockit builder
-        const blockitPath = join(__dirname, 'node_modules', 'blockit-builder', 'blockit.js');
-        await import(blockitPath);
+        // Run blockit builder using spawn
+        const blockitPath = join(__dirname, 'node_modules', '.bin', 'blockit-builder');
+        console.log('Running blockit builder...');
+        const result = spawnSync('node', [blockitPath, '--build'], {
+            stdio: 'inherit',
+            shell: true
+        });
+
+        if (result.error) {
+            throw result.error;
+        }
+
+        if (result.status !== 0) {
+            throw new Error(`Blockit builder failed with status ${result.status}`);
+        }
 
         // Define static directories to copy
         const staticDirs = ['assets', 'css', 'js', 'images', 'fonts'];
@@ -55,6 +69,13 @@ async function build() {
             console.log(`Copying ${dir}...`);
             copyDir(srcDir, destDir);
         });
+
+        // Copy index.html if it exists in the root
+        const indexPath = join(__dirname, 'index.html');
+        if (existsSync(indexPath)) {
+            copyFileSync(indexPath, join(distDir, 'index.html'));
+            console.log('Copied index.html to dist directory');
+        }
 
         console.log('Build completed successfully!');
     } catch (error) {
