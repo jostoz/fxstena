@@ -6,7 +6,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "node ./node_modules/blockit-builder/blockit.js --build",
+    "build": "node build.js",
     "dev": "node ./node_modules/blockit-builder/blockit.js",
     "start": "node ./node_modules/blockit-builder/blockit.js"
   },
