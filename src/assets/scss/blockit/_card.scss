@@ -1,0 +1,13 @@
+// Card
+.card-footer {
+    background-color: $white;
+}
+
+.card-badge {
+    .badge {
+        top: -10px;
+        right: -10px;
+        position: absolute;
+        z-index: 1;
+    }
+}

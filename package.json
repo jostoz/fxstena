@@ -1,0 +1,26 @@
+{
+  "name": "stena",
+  "title": "Stena",
+  "version": "1.0.0",
+  "description": "Investment and Finance HTML Template",
+  "private": true,
+  "scripts": {
+    "build": "node ./node_modules/blockit-builder/blockit.js --build",
+    "blockit": "node ./node_modules/blockit-builder/blockit.js"
+  },
+  "browserslist": [
+    "last 2 years"
+  ],
+  "author": "mudza09",
+  "license": "MIT",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "6.4.0",
+    "bigger-picture": "1.1.8",
+    "bootstrap": "5.3.0",
+    "share-buttons": "1.9.0",
+    "shufflejs": "6.1.0"
+  },
+  "devDependencies": {
+    "blockit-builder": "^3.3.2"
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "siteInfo": {
+    "pageTitle": "Stena HTML5 Template",
+    "metaDescription": "Premium HTML5 Template by Indonez",
+    "metaKeywords": [
+      "blockit",
+      "bootsrap5",
+      "indonez",
+      "handlebars",
+      "scss",
+      "javascript"
+    ],
+    "metaAuthor": "Indonez",
+    "metaThemeColor": "#5FA1FC",
+    "favicon": "img/favicon.ico",
+    "touchIcon": "img/apple-touch-icon.png"
+  },
+  "colors": {
+    "primaryColor": "#418AE3",
+    "secondaryColor": "#2B2B2B",
+    "successColor": "#3BD297",
+    "infoColor": "#93C4F6",
+    "warningColor": "#F89F5F",
+    "dangerColor": "#EE4F6F",
+    "lightColor": "#F2F4F6",
+    "darkColor": "#424242",
+    "backgroundColor": "#FFFFFF",
+    "bodyColor": "#656565",
+    "linkColor": "#418AE3"
+  },
+  "authors": [
+    {
+      "id": "2LKIG3",
+      "name": "Indonez",
+      "email": "hello@indonez.com",
+      "avatar": "img/user/author-SYUj0x.png",
+      "bio": "Freelance front-end developer who is \"extremely good at one thing\" and helps everyone to build their dream website with stunning visuals.",
+      "socialMedia": [
+        {
+          "facebook": "https://www.facebook.com/indonez"
+        },
+        {
+          "twitter": "https://twitter.com/indonez_tw"
+        },
+        {
+          "instagram": "https://www.instagram.com/indonez_ig/"
+        },
+        {
+          "linkedin": false
+        },
+        {
+          "website": "https://www.indonez.com"
+        }
+      ]
+    },
+    {
+      "id": "tXeY2N",
+      "name": "Warren Wong",
+      "email": "warren@email.com",
+      "avatar": "img/user/author-85z9UC.jpg",
+      "bio": "Growing up in Chicago, where he discovered his love of writing, he thought that words might open doors to freedom & spark the imagination.",
+      "socialMedia": [
+        {
+          "facebook": "#some-link"
+        },
+        {
+          "twitter": "#some-link"
+        },
+        {
+          "instagram": false
+        },
+        {
+          "linkedin": "#some-link"
+        },
+        {
+          "website": "#some-link"
+        }
+      ]
+    }
+  ],
+  "blog": {
+    "asBlog": [
+      "blog",
+      false
+    ],
+    "categories": [
+      "Health",
+      "Politics",
+      "Technology",
+      "Travel",
+      "Investing",
+      "Menu"
+    ],
+    "postPerPage": "3",
+    "showWidgets": {
+      "allHide": false,
+      "search": true,
+      "categories": true,
+      "latestPosts": true,
+      "tags": true
+    },
+    "displayAuthor": true,
+    "displayTag": true,
+    "displayShareButtons": true,
+    "disqussShortname": "html-demo"
+  },
+  "optimization": {
+    "minifyAssets": {
+      "html": false,
+      "css": false,
+      "js": false
+    },
+    "preloadCritical": true
+  }
+}

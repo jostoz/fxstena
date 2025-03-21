@@ -1,0 +1,11 @@
+$breadcrumb-font-size:              .75rem;
+$breadcrumb-padding-y:              8px;
+$breadcrumb-padding-x:              16px;
+$breadcrumb-item-padding-x:         1rem;
+$breadcrumb-margin-bottom:          1rem;
+$breadcrumb-bg:                     none;
+$breadcrumb-divider-color:          lighten($primary, 10%);
+$breadcrumb-active-color:           lighten($primary, 10%);
+$breadcrumb-divider:                quote("/");
+$breadcrumb-divider-flipped:        $breadcrumb-divider;
+$breadcrumb-border-radius:          $border-radius-sm;

@@ -1,0 +1,95 @@
+{
+  "slideshow": [
+    {
+      "slides": [
+        {
+          "id": "dx5Ukz",
+          "text": "<div class=\"carousel-item\">\r\n    <div class=\"carousel-caption d-flex\">\r\n        <div class=\"container position-relative\">\r\n            <div class=\"row row-cols-1 row-cols-md-2 gx-md-0 gx-lg-5 align-items-md-end\">\r\n                <div class=\"order-first\">\r\n                    <h1 class=\"text-primary\">Everyone’s an Investor</h1>\r\n                    <p class=\"fw-bold lead\">Get an easy-to-use platform, expert trade ideas and friendly support as standard.</p>\r\n                    <div class=\"d-flex my-4 btn-hide-wrap\">\r\n                        <a href=\"#\" class=\"btn btn-primary\">Open an Account</a>\r\n                        <a href=\"#\" class=\"btn btn-link text-decoration-none ms-1 d-none d-lg-block\">Try demo Account<i class=\"fas fa-circle-chevron-right ms-1\"></i></a>\r\n                    </div>\r\n                    <p class=\"fw-bold mb-1 d-none d-lg-block\">Fast and easy Deposit with:</p>\r\n                    <div class=\"card card-body d-none d-lg-block mb-3\">\r\n                        <ul class=\"list-unstyled d-flex justify-content-between mb-0\">\r\n                            <li>\r\n                                <img src=\"img/in-slideshow-payment-1.svg\" alt=\"payment\" width=\"35\" height=\"22\">\r\n                            </li>\r\n                            <li>\r\n                                <img src=\"img/in-slideshow-payment-2.svg\" alt=\"payment\" width=\"52\" height=\"17\">\r\n                            </li>\r\n                            <li>\r\n                                <img src=\"img/in-slideshow-payment-3.svg\" alt=\"payment\" width=\"71\" height=\"19\">\r\n                            </li>\r\n                            <li>\r\n                                <img src=\"img/in-slideshow-payment-4.svg\" alt=\"payment\" width=\"57\" height=\"17\">\r\n                            </li>\r\n                            <li>\r\n                                <img src=\"img/in-slideshow-payment-5.svg\" alt=\"payment\" width=\"92\" height=\"16\">\r\n                            </li>\r\n                        </ul>\r\n                    </div>\r\n                </div>\r\n                <div class=\"order-last\">\r\n                    <img src=\"img/in-slideshow-image-1.jpg\" class=\"in-slide-image center-side\" alt=\"slide\" width=\"500\" height=\"653\">\r\n                    <img src=\"img/in-slideshow-image-2.png\" class=\"in-slide-image left-side\" alt=\"slide\" width=\"289\" height=\"304\">\r\n                    <img src=\"img/in-slideshow-image-3.png\" class=\"in-slide-image right-side\" alt=\"slide\" width=\"281\" height=\"294\">\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>"
+        },
+        {
+          "id": "Rjir9Q",
+          "text": "<div class=\"carousel-item\">\n    <div class=\"carousel-caption d-flex\">\n        <div class=\"container position-relative\">\n            <div class=\"row row-cols-1 row-cols-md-2 gx-md-0 gx-lg-5 align-items-md-end\">\n                <div class=\"order-first\">\n                    <h1 class=\"text-primary\">Elevate your portfolio</h1>\n                    <p class=\"fw-bold lead\">Bring your trading ventures go around the world, beyond the space of your investment.</p>\n                    <div class=\"d-flex my-4 btn-hide-wrap\">\n                        <a href=\"#\" class=\"btn btn-primary\">Open an Account</a>\n                        <a href=\"#\" class=\"btn btn-link text-decoration-none ms-1 d-none d-lg-block\">Try demo Account<i class=\"fas fa-circle-chevron-right ms-1\"></i></a>\n                    </div>\n                    <p class=\"fw-bold mb-1 d-none d-lg-block\">Fast and easy Deposit with:</p>\n                    <div class=\"card card-body d-none d-lg-block mb-3\">\n                        <ul class=\"list-unstyled d-flex justify-content-between mb-0\">\n                            <li>\n                                <img src=\"img/in-slideshow-payment-1.svg\" alt=\"payment\" width=\"35\" height=\"22\">\n                            </li>\n                            <li>\n                                <img src=\"img/in-slideshow-payment-2.svg\" alt=\"payment\" width=\"52\" height=\"17\">\n                            </li>\n                            <li>\n                                <img src=\"img/in-slideshow-payment-3.svg\" alt=\"payment\" width=\"71\" height=\"19\">\n                            </li>\n                            <li>\n                                <img src=\"img/in-slideshow-payment-4.svg\" alt=\"payment\" width=\"57\" height=\"17\">\n                            </li>\n                            <li>\n                                <img src=\"img/in-slideshow-payment-5.svg\" alt=\"payment\" width=\"92\" height=\"16\">\n                            </li>\n                        </ul>\n                    </div>\n                </div>\n                <div class=\"order-last\">\n                    <img src=\"img/in-slideshow-image-4.jpg\" class=\"in-slide-image center-side\" alt=\"slide\" width=\"500\" height=\"653\">\n                    <img src=\"img/in-slideshow-image-5.png\" class=\"in-slide-image left-side\" alt=\"slide\" width=\"289\" height=\"304\">\n                    <img src=\"img/in-slideshow-image-6.png\" class=\"in-slide-image right-side\" alt=\"slide\" width=\"281\" height=\"294\">\n                </div>\n            </div>\n        </div>\n    </div>\n</div>"
+        }
+      ]
+    },
+    {
+      "slides": [
+        {
+          "id": "BHnmwC",
+          "text": "<div class=\"carousel-item\">\n    <div class=\"carousel-caption d-flex\">\n        <div class=\"container position-relative\">\n            <div class=\"row row-cols-1 row-cols-md-2 gx-md-0 gx-lg-5 align-items-md-end\">\n                <div class=\"order-first\">\n                    <h1 class=\"text-primary\">Elevate your portfolio</h1>\n                    <p class=\"fw-bold lead\">Bring your trading ventures go around the world, beyond the space of your investment.</p>\n                    <div class=\"d-flex my-4 btn-hide-wrap\">\n                        <a href=\"#\" class=\"btn btn-primary\">Open an Account</a>\n                        <a href=\"#\" class=\"btn btn-link text-decoration-none ms-1 d-none d-lg-block\">Try demo Account<i class=\"fas fa-circle-chevron-right ms-1\"></i></a>\n                    </div>\n                    <p class=\"fw-bold mb-1 d-none d-lg-block\">Fast and easy Deposit with:</p>\n                    <div class=\"card card-body d-none d-lg-block mb-3\">\n                        <ul class=\"list-unstyled d-flex justify-content-between mb-0\">\n                            <li>\n                                <img src=\"img/in-slideshow-payment-1.svg\" alt=\"payment\" width=\"35\" height=\"22\">\n                            </li>\n                            <li>\n                                <img src=\"img/in-slideshow-payment-2.svg\" alt=\"payment\" width=\"52\" height=\"17\">\n                            </li>\n                            <li>\n                                <img src=\"img/in-slideshow-payment-3.svg\" alt=\"payment\" width=\"71\" height=\"19\">\n                            </li>\n                            <li>\n                                <img src=\"img/in-slideshow-payment-4.svg\" alt=\"payment\" width=\"57\" height=\"17\">\n                            </li>\n                            <li>\n                                <img src=\"img/in-slideshow-payment-5.svg\" alt=\"payment\" width=\"92\" height=\"16\">\n                            </li>\n                        </ul>\n                    </div>\n                </div>\n                <div class=\"order-last\">\n                    <img src=\"img/in-slideshow-image-4.jpg\" class=\"in-slide-image center-side\" alt=\"slide\" width=\"500\" height=\"653\">\n                    <img src=\"img/in-slideshow-image-5.png\" class=\"in-slide-image left-side\" alt=\"slide\" width=\"289\" height=\"304\">\n                    <img src=\"img/in-slideshow-image-6.png\" class=\"in-slide-image right-side\" alt=\"slide\" width=\"281\" height=\"294\">\n                </div>\n            </div>\n        </div>\n    </div>\n</div>"
+        },
+        {
+          "id": "fnGJoq",
+          "text": "<div class=\"carousel-item\">\r\n    <div class=\"carousel-caption d-flex\">\r\n        <div class=\"container position-relative\">\r\n            <div class=\"row row-cols-1 row-cols-md-2 gx-md-0 gx-lg-5 align-items-md-end\">\r\n                <div class=\"order-first\">\r\n                    <h1 class=\"text-primary\">Everyone’s an Investor</h1>\r\n                    <p class=\"fw-bold lead\">Get an easy-to-use platform, expert trade ideas and friendly support as standard.</p>\r\n                    <div class=\"d-flex my-4 btn-hide-wrap\">\r\n                        <a href=\"#\" class=\"btn btn-primary\">Open an Account</a>\r\n                        <a href=\"#\" class=\"btn btn-link text-decoration-none ms-1 d-none d-lg-block\">Try demo Account<i class=\"fas fa-circle-chevron-right ms-1\"></i></a>\r\n                    </div>\r\n                    <p class=\"fw-bold mb-1 d-none d-lg-block\">Fast and easy Deposit with:</p>\r\n                    <div class=\"card card-body d-none d-lg-block mb-3\">\r\n                        <ul class=\"list-unstyled d-flex justify-content-between mb-0\">\r\n                            <li>\r\n                                <img src=\"img/in-slideshow-payment-1.svg\" alt=\"payment\" width=\"35\" height=\"22\">\r\n                            </li>\r\n                            <li>\r\n                                <img src=\"img/in-slideshow-payment-2.svg\" alt=\"payment\" width=\"52\" height=\"17\">\r\n                            </li>\r\n                            <li>\r\n                                <img src=\"img/in-slideshow-payment-3.svg\" alt=\"payment\" width=\"71\" height=\"19\">\r\n                            </li>\r\n                            <li>\r\n                                <img src=\"img/in-slideshow-payment-4.svg\" alt=\"payment\" width=\"57\" height=\"17\">\r\n                            </li>\r\n                            <li>\r\n                                <img src=\"img/in-slideshow-payment-5.svg\" alt=\"payment\" width=\"92\" height=\"16\">\r\n                            </li>\r\n                        </ul>\r\n                    </div>\r\n                </div>\r\n                <div class=\"order-last\">\r\n                    <img src=\"img/in-slideshow-image-1.jpg\" class=\"in-slide-image center-side\" alt=\"slide\" width=\"500\" height=\"653\">\r\n                    <img src=\"img/in-slideshow-image-2.png\" class=\"in-slide-image left-side\" alt=\"slide\" width=\"289\" height=\"304\">\r\n                    <img src=\"img/in-slideshow-image-3.png\" class=\"in-slide-image right-side\" alt=\"slide\" width=\"281\" height=\"294\">\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>"
+        }
+      ]
+    },
+    {
+      "slides": []
+    },
+    {
+      "slides": []
+    }
+  ],
+  "header": {
+    "siteLogo": {
+      "src": "img/user/header-logo-6d29q8.svg",
+      "width": "128",
+      "height": "46"
+    },
+    "signup": {
+      "title": "Open an Account",
+      "url": "#",
+      "external": false,
+      "display": true
+    },
+    "signin": {
+      "title": "Login",
+      "url": "signin.html",
+      "external": false,
+      "display": true
+    }
+  },
+  "footer": {
+    "copyrightText": "©2022 Stena Invest Ltd. All Rights Reserved.",
+    "siteLogo": {
+      "enabled": true,
+      "logo": {
+        "src": "img/user/footer-logo-zxCu22.svg",
+        "width": "106",
+        "height": "38"
+      }
+    }
+  },
+  "contactMap": {
+    "email": "hello@company.com",
+    "mapIframe": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10600.5248164368!2d144.95966577016594!3d-37.81707816290683!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d4c2b349649%3A0xb6899234e561db11!2sEnvato!5e0!3m2!1sen!2sid!4v1645280096951!5m2!1sen!2sid\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\"></iframe>",
+    "mapSrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10600.5248164368!2d144.95966577016594!3d-37.81707816290683!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d4c2b349649%3A0xb6899234e561db11!2sEnvato!5e0!3m2!1sen!2sid!4v1645280096951!5m2!1sen!2sid"
+  },
+  "socialMedia": [
+    {
+      "facebook": "#some-link"
+    },
+    {
+      "twitter": "#some-link"
+    },
+    {
+      "instagram": "#some-link"
+    },
+    {
+      "linkedin": ""
+    },
+    {
+      "behance": ""
+    },
+    {
+      "whatsapp": ""
+    },
+    {
+      "telegram": ""
+    },
+    {
+      "youtube": "#some-link"
+    }
+  ]
+}

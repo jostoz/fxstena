@@ -1,0 +1,16 @@
+// Tables
+.table {
+    font-size: $font-size-sm;
+    border-color: $light;
+    thead {
+        background: lighten($primary, 38%);
+        > :not(caption) > * {
+            color: $primary;
+            padding-top: 1.2rem;
+            padding-bottom: 1.2rem;
+        }
+    }
+    > :not(:first-child) {
+        border-top: 0;
+    }    
+}

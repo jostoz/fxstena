@@ -1,0 +1,36 @@
+// Text decorations
+.text-line { 
+    position: relative;
+    z-index: 1;
+    span {
+        background-color: $body-bg;
+        padding: 0 10px;
+        &::before {
+            content: "";
+            width: 100%;
+            position: absolute;
+            top: calc(50% - ((0.2px + 0.05em) / 2));
+            left: 0;
+            border-bottom: 1px solid $border-color;
+            z-index: -1;
+        }
+    }
+}
+
+.text-highlight {
+    display: inline-block;
+    position: relative;
+    background: 0 0;
+    z-index: 0;
+    &::before {
+        content: '';
+        background: #ffeaa7;
+        position: absolute;
+        left: 0;
+        right: -2px;
+        bottom: 5px;
+        height: 12px;
+        border-radius: 4px;
+        z-index: -1;
+    }
+}

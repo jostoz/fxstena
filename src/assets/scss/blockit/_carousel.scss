@@ -1,0 +1,140 @@
+// Carousel
+.carousel-caption {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    color: $body-color;
+    text-align: left;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    font-family: 'Font Awesome 6 Free';
+    font-size: 1.125rem;
+    width: 45px;
+    height: 45px;
+    background: $primary;
+    border-radius: $border-radius;
+    top: 46%;
+    opacity: 1;
+    &:hover,
+    &:focus {
+        opacity: .8;
+    }
+}
+
+.carousel-control-prev {
+    left: 1.5%;
+    &::before {
+        content: "\f060";
+    }
+}
+
+.carousel-control-next {
+    right: 1.5%;
+    &::before {
+        content: "\f061";
+    }
+}
+
+.carousel-indicators {
+    [data-bs-target] {
+        margin-right: 4px;
+        margin-left: 4px;
+        border-radius: 10px;
+        background: #DCDCDC;
+    }
+    .active {
+        width: 15px;
+        opacity: .4;
+        background: #DB2F69;
+    }
+}
+
+// Dark mode carousel
+.carousel-dark {
+    .carousel-control-prev,
+    .carousel-control-next {
+        filter: $carousel-dark-control-icon-filter;
+        opacity: .3;
+    }
+    .carousel-indicators {
+        [data-bs-target] {
+            background-color: $carousel-dark-indicator-active-bg;
+            opacity: .3;
+        }
+        .active {
+            opacity: .6;
+        }
+    }
+}
+
+.control-hover {
+    .carousel-control-prev,
+    .carousel-control-next {
+        opacity: 0;
+        transition: all 200ms linear;
+        &:hover,
+        &:focus {
+            opacity: 0;
+        }
+    }
+    .carousel-control-prev {
+        transform: translateX(0);
+    }    
+    .carousel-control-next {
+        transform: translateX(0);
+    }
+    &:hover {
+        .carousel-control-prev,
+        .carousel-control-next {
+            opacity: 1;
+        }
+        .carousel-control-prev {
+            transform: translateX(0.5rem);
+        }
+        .carousel-control-next {
+            transform: translateX(-0.5rem);
+        }
+    }
+}
+
+.indicators-hover {
+    .carousel-indicators {
+        transition: all 200ms linear;
+        transform: translateY(0.5rem);
+        [data-bs-target] {
+            opacity: 0;
+        }
+        .active {            
+            opacity: 0;
+        }
+    }
+    &:hover {
+        .carousel-indicators {
+            transform: translateY(0);
+            [data-bs-target] {
+                opacity: .3;
+            }
+            .active {            
+                opacity: .6;
+            }
+        }
+    }
+}
+
+@include media-breakpoint-down(lg) {
+    .carousel-control-prev,
+    .carousel-control-next {
+        display: none;
+    }
+}
+
+@include media-breakpoint-down(md) {
+    .carousel-control-prev,
+    .carousel-control-next {
+        display: none;
+    }
+}

@@ -1,0 +1,19 @@
+<!-- javascript -->
+<script src="{{root}}js/vendors/bootstrap.bundle.min.js"></script>
+{{#ifpage 'careers'}}
+<script src="{{root}}js/vendors/bigger-picture.min.js"></script>
+<script src="{{root}}js/vendors/shuffle.min.js"></script>
+{{/ifpage}}
+{{#ifpage 'index'}}
+<script src="{{root}}js/vendors/tradingview-widget.min.js"></script>
+<script src="https://widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" defer></script>
+{{/ifpage}}
+{{#ifpage 'homepage2'}}
+<script src="{{root}}js/vendors/peity-vanilla.min.js"></script>
+<script src="{{root}}js/config-peity.js"></script>
+{{/ifpage}}
+{{#if asSingle}}
+<script src="{{root}}js/vendors/share-buttons.min.js"></script>
+{{/if}}
+<script src="{{root}}js/utilities.min.js"></script>
+<script src="{{root}}js/config-theme.js"></script>

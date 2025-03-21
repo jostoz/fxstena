@@ -1,0 +1,28 @@
+.section-breadcrumb  {
+    padding-top: 40px;
+    h1 {
+        color: $primary;
+    }
+}
+
+.breadcrumb {
+    display: inline-flex;
+    background-color: #F8FBFF;
+    border: $border-width solid lighten($primary, 31%);
+    position: relative;
+    z-index: 1;
+}
+
+.breadcrumb-item {
+    text-transform: uppercase;
+    a {
+        color: lighten($primary, 10%);
+        text-decoration: none;
+    }
+}
+
+@include media-breakpoint-down(md) {
+    .section-breadcrumb  {
+        padding-top: 20px;
+    }
+}

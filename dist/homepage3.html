@@ -1,0 +1,512 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<!-- meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Premium HTML5 Template by Indonez">
+	<meta name="keywords" content="blockit, bootsrap5, indonez, handlebars, scss, javascript">
+	<meta name="author" content="Indonez">
+	<meta name="theme-color" content="#5FA1FC">
+	<!-- preload assets -->
+	<link rel="preload" href="fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+	<link rel="preload" href="fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+	<link rel="preload" href="fonts/lato-v24-latin-700.woff2" as="font" type="font/woff2" crossorigin>
+	<link rel="preload" href="fonts/lato-v24-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+	<link rel="preload" href="fonts/lato-v24-latin-300.woff2" as="font" type="font/woff2" crossorigin>
+	<link rel="preload" href="fonts/aleo-v12-latin-700.woff2" as="font" type="font/woff2" crossorigin>
+	<link rel="preload" href="css/style.css" as="style">
+	<link rel="preload" href="js/vendors/bootstrap.bundle.min.js" as="script">
+	<!-- stylesheet -->
+	<link rel="stylesheet" href="css/style.css">
+	<!-- favicon -->
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+	<!-- touch icon -->
+	<link rel="apple-touch-icon-precomposed" href="img/apple-touch-icon.png">
+	<title>Homepage 3 - Stena HTML5 Template</title>
+</head>
+
+<body>
+	<!-- page loader begin -->
+	<div class="page-loader w-100 h-100 bg-white d-flex justify-content-center align-items-center position-fixed overflow-hidden">
+		<div class="spinner-grow spinner-grow-sm text-primary"></div>
+		<div class="spinner-grow spinner-grow-sm text-primary"></div>
+		<div class="spinner-grow spinner-grow-sm text-primary"></div>
+	</div>
+	<!-- page loader end -->
+	<!-- header begin -->
+	<header class="">
+		<div class="container d-flex flex-wrap justify-content-between py-3 in-dotted-decor">
+			<a class="navbar-brand" href="index.html">
+				<img src="img/user/header-logo-6d29q8.svg" alt="logo" width="128" height="46" class="d-inline-block">
+			</a>
+			<div class="optional-link d-none d-xl-block">
+				<a href="#" class="in-icon-link">
+					<span class="icon-wrap rounded-circle bg-primary"><i class="fas fa-message"></i></span> Live chat
+				</a>
+				<a href="#" class="in-icon-link">
+					<span class="icon-wrap rounded-circle bg-primary"><i class="fas fa-briefcase"></i></span> Partnership
+				</a>
+				<a href="signin.html" class="in-icon-link">
+					<span class="icon-wrap rounded-circle bg-primary"><i class="fas fa-user"></i></span> Login
+				</a>
+				<a href="#"
+					class="btn btn-primary">Open an Account</a>
+			</div>
+		</div>
+		<nav class="navbar navbar-expand-lg d-none d-xl-block">
+			<div class="container d-flex flex-wrap">
+				<ul class="navbar-nav">
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="index.html"  id="dropdownHome" data-bs-toggle="dropdown"
+							aria-expanded="false" >Home</a>
+						<ul class="dropdown-menu">
+							<li>
+								<a class="dropdown-item" href="homepage2.html">Homepage 2</a>
+							</li>
+							<li>
+								<a class="dropdown-item" href="homepage3.html">Homepage 3</a>
+							</li>
+							<li>
+								<a class="dropdown-item" href="homepage4.html">Homepage 4</a>
+							</li>
+						</ul>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="markets.html" >Markets</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#"  id="dropdownCompany" data-bs-toggle="dropdown"
+							aria-expanded="false" >Company</a>
+						<ul class="dropdown-menu">
+							<li>
+								<a class="dropdown-item" href="about.html">About</a>
+							</li>
+							<li>
+								<a class="dropdown-item" href="blog.html">Blog</a>
+							</li>
+							<li>
+								<a class="dropdown-item" href="careers.html">Careers</a>
+							</li>
+							<li>
+								<a class="dropdown-item" href="contact.html">Contact</a>
+							</li>
+						</ul>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="education.html" >Education</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#"  id="dropdownResources" data-bs-toggle="dropdown"
+							aria-expanded="false" >Resources</a>
+						<ul class="dropdown-menu">
+							<li>
+								<a class="dropdown-item" href="https://getbootstrap.com/docs/5.3/getting-started/introduction/">Documentation<i class="fas fa-square-arrow-up-right fa-sm"></i></a>
+							</li>
+							<li>
+								<a class="dropdown-item" href="help-center.html">Help Center</a>
+							</li>
+							<li>
+								<a class="dropdown-item" href="customers.html">Customers</a>
+							</li>
+							<li>
+								<a class="dropdown-item" href="roadmap.html">Roadmap</a>
+							</li>
+							<li>
+								<a class="dropdown-item" href="legal-docs.html">Legal Docs<i class="fas fa-gavel fa-sm"></i></a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+	<!-- header end -->
+	<main>
+		<!-- slideshow content begin -->
+		<section>
+			<div id="slideshow" class="carousel slide" data-bs-ride="carousel" style="background: url(img/in-slideshow-bg.webp) no-repeat bottom center;">
+				<div class="carousel-inner">
+					<div class="carousel-item">
+						<div class="carousel-caption d-flex">
+							<div class="container position-relative">
+								<div class="row row-cols-1 row-cols-md-2 gx-md-0 gx-lg-5 align-items-md-end">
+									<div class="order-first">
+										<h1 class="text-primary">Everyone’s an Investor</h1>
+										<p class="fw-bold lead">Get an easy-to-use platform, expert trade ideas and friendly support as standard.</p>
+										<div class="d-flex my-4 btn-hide-wrap">
+											<a href="#" class="btn btn-primary">Open an Account</a>
+											<a href="#" class="btn btn-link text-decoration-none ms-1 d-none d-lg-block">Try demo Account<i class="fas fa-circle-chevron-right ms-1"></i></a>
+										</div>
+										<p class="fw-bold mb-1 d-none d-lg-block">Fast and easy Deposit with:</p>
+										<div class="card card-body d-none d-lg-block mb-3">
+											<ul class="list-unstyled d-flex justify-content-between mb-0">
+												<li>
+													<img src="img/in-slideshow-payment-1.svg" alt="payment" width="35" height="22">
+												</li>
+												<li>
+													<img src="img/in-slideshow-payment-2.svg" alt="payment" width="52" height="17">
+												</li>
+												<li>
+													<img src="img/in-slideshow-payment-3.svg" alt="payment" width="71" height="19">
+												</li>
+												<li>
+													<img src="img/in-slideshow-payment-4.svg" alt="payment" width="57" height="17">
+												</li>
+												<li>
+													<img src="img/in-slideshow-payment-5.svg" alt="payment" width="92" height="16">
+												</li>
+											</ul>
+										</div>
+									</div>
+									<div class="order-last">
+										<img src="img/in-slideshow-image-1.jpg" class="in-slide-image center-side" alt="slide" width="500" height="653">
+										<img src="img/in-slideshow-image-2.png" class="in-slide-image left-side" alt="slide" width="289" height="304">
+										<img src="img/in-slideshow-image-3.png" class="in-slide-image right-side" alt="slide" width="281" height="294">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<div class="carousel-caption d-flex">
+							<div class="container position-relative">
+								<div class="row row-cols-1 row-cols-md-2 gx-md-0 gx-lg-5 align-items-md-end">
+									<div class="order-first">
+										<h1 class="text-primary">Elevate your portfolio</h1>
+										<p class="fw-bold lead">Bring your trading ventures go around the world, beyond the space of your investment.</p>
+										<div class="d-flex my-4 btn-hide-wrap">
+											<a href="#" class="btn btn-primary">Open an Account</a>
+											<a href="#" class="btn btn-link text-decoration-none ms-1 d-none d-lg-block">Try demo Account<i class="fas fa-circle-chevron-right ms-1"></i></a>
+										</div>
+										<p class="fw-bold mb-1 d-none d-lg-block">Fast and easy Deposit with:</p>
+										<div class="card card-body d-none d-lg-block mb-3">
+											<ul class="list-unstyled d-flex justify-content-between mb-0">
+												<li>
+													<img src="img/in-slideshow-payment-1.svg" alt="payment" width="35" height="22">
+												</li>
+												<li>
+													<img src="img/in-slideshow-payment-2.svg" alt="payment" width="52" height="17">
+												</li>
+												<li>
+													<img src="img/in-slideshow-payment-3.svg" alt="payment" width="71" height="19">
+												</li>
+												<li>
+													<img src="img/in-slideshow-payment-4.svg" alt="payment" width="57" height="17">
+												</li>
+												<li>
+													<img src="img/in-slideshow-payment-5.svg" alt="payment" width="92" height="16">
+												</li>
+											</ul>
+										</div>
+									</div>
+									<div class="order-last">
+										<img src="img/in-slideshow-image-4.jpg" class="in-slide-image center-side" alt="slide" width="500" height="653">
+										<img src="img/in-slideshow-image-5.png" class="in-slide-image left-side" alt="slide" width="289" height="304">
+										<img src="img/in-slideshow-image-6.png" class="in-slide-image right-side" alt="slide" width="281" height="294">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- slideshow content end -->
+		<!-- section content begin -->
+		<section class="pt-3 pb-4 in-stena-9">
+			<div class="container">
+				<div class="row row-cols-1 row-cols-md-3 gy-2 gy-md-0 mb-3 mb-md-0">
+					<div class="col">
+						<div class="d-flex justify-content-center align-items-center">
+							<div class="icon-wrap icon-wrap-small bg-primary rounded-1 flex-shrink-0 me-2">
+								<i class="fas fa-check"></i>
+							</div>
+							<h2 class="h6 mb-0">Unparalleled Trading Conditions</h2>
+						</div>
+					</div>
+					<div class="col">
+						<div class="d-flex justify-content-center align-items-center">
+							<div class="icon-wrap icon-wrap-small bg-primary rounded-1 flex-shrink-0 me-2">
+								<i class="fas fa-check"></i>
+							</div>
+							<h2 class="h6 mb-0">Globally Licensed &amp; Regulated</h2>
+						</div>
+					</div>
+					<div class="col">
+						<div class="d-flex justify-content-center align-items-center">
+							<div class="icon-wrap icon-wrap-small bg-primary rounded-1 flex-shrink-0 me-2">
+								<i class="fas fa-check"></i>
+							</div>
+							<h2 class="h6 mb-0">Committed to Forex Education</h2>
+						</div>
+					</div>
+				</div>
+				<div class="row row-cols-1 row-cols-lg-2 gy-2 gy-lg-0 gx-2 mt-md-2 mt-lg-5">
+					<div class="col">
+						<div class="card card-body bg-blue h-100">
+							<p class="fw-bold mb-1">User friendly and enhanced trading app</p>
+							<p class="mb-0">Omnis cupiditate quam, harum et perspiciatis doloremque impedit molestias nesciunt dolore earum laborum sed.</p>
+							<img src="img/in-stena-9-image-1.png" alt="image" width="506" height="329">
+						</div>
+					</div>
+					<div class="col">
+						<div class="card card-body bg-purple mb-3">
+							<div class="d-flex flex-column flex-md-row justify-content-between align-items-center">
+								<div class="my-2">
+									<p class="fw-bold mb-1">We're here to help whenever you need it</p>
+									<p>No matter what financial questions you have, we're here to work with you on your terms.</p>
+									<div class="d-flex align-items-center mt-1 mb-1">
+										<div class="icon-wrap icon-wrap-small bg-white rounded-circle flex-shrink-0 me-1">
+											<i class="fas fa-phone"></i>
+										</div>
+										<p class="mb-0 text-purple">1-800-123-4567</p>
+										<div class="icon-wrap icon-wrap-small bg-white rounded-circle flex-shrink-0 ms-3 me-1">
+											<i class="fas fa-message"></i>
+										</div>
+										<p class="mb-0 text-purple">Live chat</p>
+									</div>
+								</div>
+								<img src="img/in-stena-9-image-2.png" alt="image" width="180" height="200">
+							</div>
+						</div>
+						<div class="card card-body bg-salmon">
+							<div class="d-flex flex-column flex-md-row align-items-center">
+								<div class="my-2">
+									<p class="fw-bold mb-1">Popular cryptocurrencies</p>
+									<p class="mb-1">The largest cryptocurrencies by the total dollar value.</p>
+									<a href="#" class="btn btn-link text-decoration-none px-0">Learn more<i class="fas fa-circle-chevron-right ms-1"></i></a>
+								</div>
+								<img src="img/in-stena-9-image-3.png" alt="image" width="304" height="200">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- section content end -->
+		<!-- section content begin -->
+		<section class="py-4 in-stena-10">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-12 col-lg-11">
+						<div class="row row-cols-1 row-cols-lg-2 gx-lg-5 align-items-center">
+							<div class="col d-flex justify-content-center">
+								<div class="image-decor mb-3 mb-lg-0">
+									<img src="img/in-stena-10-image.png" alt="image" width="360" height="390">
+								</div>
+							</div>
+							<div class="col">
+								<h1>Why investors and traders <span class="text-highlight">choose Stena</span></h1>
+								<p class="mb-4">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum magni dolores eos</p>
+								<div class="row row-cols-1 row-cols-md-2 gy-4 mb-2">
+									<div class="col">
+										<div class="border-start border-5 ps-2">
+											<h3 class="count mb-0" data-counter-end="20" data-counter-append=" years">0 years</h3>
+											<small class="text-muted text-uppercase">experience since 2000</small>
+										</div>
+									</div>
+									<div class="col">
+										<div class="border-start border-5 ps-2">
+											<h3 class="count mb-0" data-counter-end="16" data-counter-append=" years">0 years</h3>
+											<small class="text-muted text-uppercase">UK regulated since 2005</small>
+										</div>
+									</div>
+									<div class="col">
+										<div class="border-start border-5 ps-2">
+											<h3 class="count mb-0" data-counter-end="180" data-counter-append=" k">0 k</h3>
+											<small class="text-muted text-uppercase">transaction per day</small>
+										</div>
+									</div>
+									<div class="col">
+										<div class="border-start border-5 ps-2">
+											<h3 class="count mb-0" data-counter-end="24" data-counter-append=" /5">0 /5</h3>
+											<small class="text-muted text-uppercase">customer support</small>
+										</div>
+									</div>
+								</div>
+								<span class="badge bg-primary me-1">Start trade</span><small class="text-muted">Connect with over 5 millions investors in the world’s leading broker</small>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- section content end -->
+		<!-- section content begin -->
+		<section class="py-4 in-stena-11">
+			<div class="container">
+				<div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 gy-2 gy-md-0">
+					<div class="col-md-12 col-lg-12 mb-n1 mb-md-2">
+						<span class="small text-uppercase text-muted">Elevate your experience</span>
+						<h1 class="mt-1">Tight spreads and <span class="text-highlight">ultra-fast</span> execution</h1>
+					</div>
+					<div class="col">
+						<div class="icon-wrap bg-purple rounded-1 flex-shrink-0 me-2">
+							<i class="fas fa-ranking-star"></i>
+						</div>
+						<div class="mt-1">
+							<h3 class="h5">Tier 1 liquidity</h3>
+							<p>Exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid commodir officia</p>
+						</div>
+					</div>
+					<div class="col">
+						<div class="icon-wrap bg-blue rounded-1 flex-shrink-0 me-2">
+							<i class="fas fa-shield"></i>
+						</div>
+						<div class="mt-1">
+							<h3 class="h5">Safe and Secure</h3>
+							<p>Duis aute irure dolor proident reprehenderit in voluptate velit cillum dolore fugiat</p>
+						</div>
+					</div>
+					<div class="col">
+						<div class="icon-wrap bg-green rounded-1 flex-shrink-0 me-2">
+							<i class="fas fa-mobile-screen-button"></i>
+						</div>
+						<div class="mt-1">
+							<h3 class="h5">Innovative platform</h3>
+							<p>Exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid commodir officia</p>
+						</div>
+					</div>
+					<div class="col">
+						<div class="icon-wrap bg-salmon rounded-1 flex-shrink-0 me-2">
+							<i class="fas fa-percent"></i>
+						</div>
+						<div class="mt-1">
+							<h3 class="h5">Low Commissions</h3>
+							<p>Duis aute irure dolor proident reprehenderit in voluptate velit cillum dolore fugiat</p>
+						</div>
+					</div>
+				</div>
+				<div class="row justify-content-center mt-4">
+					<div class="col-md-12 col-lg-10">
+						<div class="row gx-0">
+							<div class="col-md-12 col-lg-2 border-end-lg d-flex align-items-center justify-content-center justify-content-md-center justify-content-lg-start">
+								<h6 class="fw-bold text-muted text-center mb-md-2 mb-lg-0">Featured on</h6>
+							</div>
+							<div class="col-md-12 col-lg-10">
+								<div class="row row-cols-2 row-cols-md-4 row-cols-lg-4 gx-0">
+									<div class="col text-center">
+										<img class="my-2 my-md-1 my-lg-1" src="img/in-stena-press-1.svg" alt="press-logo" width="128" height="21">
+									</div>
+									<div class="col text-center">
+										<img class="my-2 my-md-1 my-lg-1" src="img/in-stena-press-2.svg" alt="press-logo" width="128" height="23">
+									</div>
+									<div class="col text-center">
+										<img class="my-2 my-md-1 my-lg-1" src="img/in-stena-press-3.svg" alt="press-logo" width="127" height="24">
+									</div>
+									<div class="col text-center">
+										<img class="my-2 my-md-1 my-lg-1" src="img/in-stena-press-4.svg" alt="press-logo" width="126" height="30">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- section content end -->
+		<!-- section content begin -->
+		<section class="pt-5 pb-4 in-stena-12">
+			<div class="container">
+				<div class="row justify-content-center my-1">
+					<div class="col-md-12 col-lg-10">
+						<div class="row align-items-center justify-content-md-center justify-content-lg-start gy-md-2 gy-lg-0">
+							<div class="col-md-8 col-lg-5 in-dotted-decor mb-3 mb-md-0">
+								<div class="card card-body">
+									<div class="hstack gap-2">
+										<div class="award-item">
+											<img src="img/in-award-icon.svg" alt="award" width="46" height="43">
+											<div>
+												<h5 class="mb-0">Best Trading App</h5>
+												<small class="mb-0 text-muted">London Summit 2020</small>
+											</div>
+										</div>
+										<div class="vr"></div>
+										<div class="award-item">
+											<img src="img/in-award-icon.svg" alt="award" width="46" height="43">
+											<div>
+												<h5 class="mb-0">Best Forex Broker</h5>
+												<small class="mb-0 text-muted">TradeOn Summit 2022</small>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-8 col-lg-7">
+								<h1 class="mb-0"><span class="text-highlight">Get started</span> with Stena</h1>
+								<p class="lead text-muted">Join over 5 million investors over the world</p>
+								<div class="d-flex mt-2">
+									<a href="#" class="btn btn-primary">Open an Account</a>
+									<a href="#" class="btn btn-link text-decoration-none ms-1">Try demo Account<i class="fas fa-circle-chevron-right ms-1"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- section content end -->
+	</main>
+	<!-- footer begin -->
+	<footer class="py-4 in-stena-footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-1-1">
+					<div class="card card-body bg-light border-0">
+						<div class="footer-logo d-flex flex-column flex-md-row justify-content-between align-items-center">
+							<img class="d-inline-block" src="img/user/footer-logo-zxCu22.svg" alt="footer-logo" width="106" height="38">
+							<p class="mb-0 d-none d-xl-block">contact us: call +12 34 5678 5678<span class="mx-1">•</span><a href="mailto:">support@stena-invest.id</a></p>
+							<!-- social media begin -->
+							<div class="social-media-list small hstack gap-2">
+								<div><a href="#some-link" class="color-facebook text-decoration-none"><i class="fab fa-facebook-square"></i> Facebook</a></div>
+								<div><a href="#some-link" class="color-twitter text-decoration-none"><i class="fab fa-twitter"></i> Twitter</a></div>
+								<div><a href="#some-link" class="color-instagram text-decoration-none"><i class="fab fa-instagram"></i> Instagram</a></div>
+								<div><a href="#some-link" class="color-youtube text-decoration-none"><i class="fab fa-youtube"></i> Youtube</a></div>
+							</div>
+							<!-- social media end -->
+						</div>
+						<hr>
+						<div class="footer-content">
+							<ul class="nav justify-content-center">
+								<li class="nav-item">
+									<a class="nav-link" href="#">Security Center</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#">Privacy Notice</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#">Data Protection</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#">Cookies Policy</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#">Accessibility Statement</a>
+								</li>
+							</ul>
+							<h6 class="mt-4 mt-md-0"><i class="fas fa-triangle-exclamation"></i>Risk warning</h6>
+							<p>Financial spread trading comes with a high risk of losing money rapidly due to leverage. 83.5% of retail investor accounts lose money when trading CFDs with this provider.
+								You should consider whether you understand how spread trading works and whether you can afford to take the high risk of losing your money.</p>
+							<p>The content of this website must not be construed as personal advice. We recommend that you seek advice from an independent financial advisor.</p>
+						</div>
+					</div>
+					<p class="copyright-text text-center">©2022 Stena Invest Ltd. All Rights Reserved.</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- footer end -->
+	<!-- to top begin -->
+	<div class="d-none d-md-block">
+		<a href="#" class="to-top fas fa-arrow-up text-decoration-none text-white"></a>
+	</div>
+	<!-- to top end -->
+	<!-- javascript -->
+	<script src="js/vendors/bootstrap.bundle.min.js"></script>
+	<script src="js/utilities.min.js"></script>
+	<script src="js/config-theme.js"></script>
+</body>
+
+</html>

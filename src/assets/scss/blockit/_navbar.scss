@@ -1,0 +1,39 @@
+// Navbar
+.navbar {
+    height: 65px;
+    background: transparent;
+}
+
+.navbar-nav {
+    background: #F2F4F6;
+    border-radius: $border-radius-sm;
+    .nav-link {
+        &.active {
+            font-weight: 700;
+            position: relative;
+            &:before {
+                content: "";
+                width: 30px;
+                height: 4px;
+                background: $primary;
+                position: absolute;
+                bottom: 0;
+                left: 32.2%;
+                border-top-left-radius: 3px;
+                border-top-right-radius: 3px;
+            }
+        }
+    }
+    .dropdown-large-menu {
+        width: 420px;
+        padding-left: 0;
+        .child-menu-text {
+            padding-top: .3rem;
+            padding-right: 30px;
+            padding-left: 26px;
+        }
+        .border-start {
+            --bs-border-color: #e8ebee;
+        }
+    }
+}
