@@ -6,7 +6,8 @@
   "private": true,
   "scripts": {
     "build": "node ./node_modules/blockit-builder/blockit.js --build",
-    "blockit": "node ./node_modules/blockit-builder/blockit.js"
+    "blockit": "node ./node_modules/blockit-builder/blockit.js",
+    "vercel-build": "npm run build"
   },
   "browserslist": [
     "last 2 years"
@@ -22,5 +23,8 @@
   },
   "devDependencies": {
     "blockit-builder": "^3.3.2"
+  },
+  "engines": {
+    "node": ">=18.19.0"
   }
 }
