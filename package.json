@@ -7,9 +7,9 @@
   "type": "module",
   "scripts": {
     "build": "node build.js",
-    "vercel-build": "npm install blockit-builder && node build.js",
-    "dev": "node ./node_modules/blockit-builder/blockit.js",
-    "start": "node ./node_modules/blockit-builder/blockit.js"
+    "vercel-build": "node build.js",
+    "dev": "node build-wrapper.js",
+    "start": "node build-wrapper.js"
   },
   "browserslist": [
     "last 2 years"

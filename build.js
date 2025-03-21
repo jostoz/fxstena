@@ -38,21 +38,22 @@ async function build() {
     try {
         console.log('Starting build process...');
 
-        // Run blockit builder using direct module path
-        const blockitPath = join(__dirname, 'node_modules', 'blockit-builder', 'blockit.js');
-        console.log('Running blockit builder from:', blockitPath);
+        // Run blockit builder using our wrapper
+        const wrapperPath = join(__dirname, 'build-wrapper.js');
+        console.log('Running blockit builder through wrapper...');
         
-        const result = spawnSync('node', [blockitPath, '--build'], {
+        const result = spawnSync('node', [wrapperPath], {
             stdio: 'inherit',
             shell: true,
             env: {
                 ...process.env,
-                NODE_NO_WARNINGS: '1'
+                NODE_NO_WARNINGS: '1',
+                FORCE_COLOR: '0'
             }
         });
 
         if (result.error) {
-            console.error('Blockit builder error:', result.error);
+            console.error('Build wrapper error:', result.error);
             throw result.error;
         }
 
