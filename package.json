@@ -5,6 +5,8 @@
   "description": "Investment and Finance HTML Template",
   "private": true,
   "scripts": {
+    "dev": "node ./node_modules/blockit-builder/blockit.js",
+    "start": "node ./node_modules/blockit-builder/blockit.js",
     "build": "node ./node_modules/blockit-builder/blockit.js --build",
     "blockit": "node ./node_modules/blockit-builder/blockit.js"
   },
