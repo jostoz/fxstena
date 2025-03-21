@@ -1,6 +1,10 @@
 // Custom build script for Vercel deployment
-const { spawn } = require('child_process');
-const path = require('path');
+import { fileURLToPath } from 'url';
+import { dirname, join } from 'path';
+import { createRequire } from 'module';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
 
 // Override process.stdout.moveCursor to prevent errors
 if (!process.stdout.moveCursor) {
@@ -8,11 +12,11 @@ if (!process.stdout.moveCursor) {
 }
 
 // Path to the blockit builder script
-const blockitPath = path.join(__dirname, 'node_modules', 'blockit-builder', 'blockit.js');
+const blockitPath = join(__dirname, 'node_modules', 'blockit-builder', 'blockit.js');
 
 // Run the build
 try {
-    require(blockitPath);
+    const blockitModule = await import(blockitPath);
 } catch (error) {
     console.error('Build error:', error);
     process.exit(1);
