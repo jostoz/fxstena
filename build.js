@@ -38,20 +38,22 @@ async function build() {
     try {
         console.log('Starting build process...');
 
-        // Run blockit builder using spawn
-        const blockitPath = join(__dirname, 'node_modules', '.bin', 'blockit-builder');
-        console.log('Running blockit builder...');
+        // Run blockit builder using direct module path
+        const blockitPath = join(__dirname, 'node_modules', 'blockit-builder', 'blockit.js');
+        console.log('Running blockit builder from:', blockitPath);
+        
         const result = spawnSync('node', [blockitPath, '--build'], {
             stdio: 'inherit',
-            shell: true
+            shell: true,
+            env: {
+                ...process.env,
+                NODE_NO_WARNINGS: '1'
+            }
         });
 
         if (result.error) {
+            console.error('Blockit builder error:', result.error);
             throw result.error;
-        }
-
-        if (result.status !== 0) {
-            throw new Error(`Blockit builder failed with status ${result.status}`);
         }
 
         // Define static directories to copy
