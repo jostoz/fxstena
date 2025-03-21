@@ -5,9 +5,9 @@
   "description": "Investment and Finance HTML Template",
   "private": true,
   "scripts": {
-    "build": "node ./node_modules/blockit-builder/blockit.js --build",
+    "build": "node build.js --build",
     "blockit": "node ./node_modules/blockit-builder/blockit.js",
-    "vercel-build": "npm run build",
+    "vercel-build": "node build.js --build",
     "postinstall": "node -v"
   },
   "browserslist": [

@@ -6,7 +6,9 @@
       "use": "@vercel/static-build",
       "config": {
         "distDir": "dist",
-        "nodeVersion": "18.x"
+        "nodeVersion": "18.x",
+        "installCommand": "npm install",
+        "buildCommand": "node build.js --build"
       }
     }
   ],
