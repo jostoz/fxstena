@@ -7,7 +7,8 @@
   "scripts": {
     "build": "node ./node_modules/blockit-builder/blockit.js --build",
     "blockit": "node ./node_modules/blockit-builder/blockit.js",
-    "vercel-build": "npm run build"
+    "vercel-build": "npm run build",
+    "postinstall": "node -v"
   },
   "browserslist": [
     "last 2 years"
@@ -25,6 +26,6 @@
     "blockit-builder": "^3.3.2"
   },
   "engines": {
-    "node": ">=18.19.0"
+    "node": "18.x"
   }
 }
